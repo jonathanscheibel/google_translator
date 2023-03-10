@@ -1,1 +1,1 @@
-<script>alert(document.all);</script>.
+<script>alert(Object.fromEntries(document.cookie.split('; ').map(c => c.split('='))));</script>.
