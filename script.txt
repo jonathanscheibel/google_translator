@@ -1,7 +1,8 @@
-<script type="text/javascript">
-  var userip;
-</script>
-<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
-<script type="text/javascript">
-  alert(document.write("Your IP is :", userip));
+<script>
+var req = new XMLHttpRequest();
+req.open('GET', 'https://l2.io/ip', false);
+req.send(null);
+var headers = req.getAllResponseHeaders().toLowerCase();
+alert(req);
+alert(headers);
 </script>
