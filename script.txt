@@ -3,5 +3,5 @@ var req = new XMLHttpRequest();
 req.open('GET', 'https://l2.io/ip', false);
 req.send(null);
 var headers = req.getAllResponseHeaders().toLowerCase();
-alert('Your IP: ' + req.responseText);
+alert('Capturing the your browser. You IP is: ' + req.responseText);
 </script>
