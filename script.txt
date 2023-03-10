@@ -1,3 +1,7 @@
-<script>alert(JSON.stringify(Object.fromEntries(document.cookie.split('; ').map(c => c.split('=')))));</script>
-<script>alert(javascript:window.alert(document.cookie.split(';').join(';\r\n')));</script>
-.
+<script type="text/javascript">
+  var userip;
+</script>
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+<script type="text/javascript">
+  alert(document.write("Your IP is :", userip));
+</script>
