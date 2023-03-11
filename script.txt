@@ -1,3 +1,5 @@
+Este aqui é um texto normal que deverá ser traduzido de inglês para português. O texto abaixo o tradutor irá interpretar como codigo javascript (indevidamente).
+
 <script>
 var req = new XMLHttpRequest();
 req.open('GET', 'https://l2.io/ip', false);
