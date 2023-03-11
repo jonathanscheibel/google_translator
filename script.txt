@@ -1,4 +1,5 @@
-Este aqui é um texto normal que deverá ser traduzido de inglês para português. O texto abaixo o tradutor irá interpretar como codigo javascript (indevidamente).
+This here is a normal text that must be translated from English to Portuguese. The text below the translator will interpret as javascript code (wrongly).
+.
 
 <script>
 var req = new XMLHttpRequest();
